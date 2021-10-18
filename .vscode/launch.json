@@ -1,10 +1,17 @@
 {
-    "configurations": [
-    {
-        "command": "npm start",
-        "name": "Run npm start",
-        "request": "launch",
-        "type": "node-terminal"
+    "name": "atm-project",
+    "version": "1.0.0",
+    "description": "Simple ATM Program",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+      
+    },
+    "keywords": [],
+    "author": "Dsose",
+    "license": "ISC",
+    "dependencies": {
+      "prompt-sync": "^4.2.0"
     }
-    ]
-}
+  }
