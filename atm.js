@@ -2,6 +2,16 @@
 
 const account = require("./account");
 
+function correctPin(userInput){
+    if(userInput != account.pin){
+        return false;
+    }else if(userInput === account.pin){
+        return true;
+     }
+}
+let getBal = account.uBal
+
+
 
 
 
